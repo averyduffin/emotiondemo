@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
-
+import { ThemeProvider } from 'emotion-theming'
+import LandingPage from './Pages/Landing'
+import theme from ''
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <LandingPage />
+    </ThemeProvider>
   );
 }
 
