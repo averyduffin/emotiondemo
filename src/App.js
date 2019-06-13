@@ -6,7 +6,7 @@ import theme from './theme'
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <LandingPage />
+      <LandingPage headerTitle="THIS IS THE TITLE" />
     </ThemeProvider>
   );
 }

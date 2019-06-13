@@ -1,5 +1,6 @@
 const theme = {
-  color: 'red'
+  color: 'black',
+  boxShadow: '#8888',
 }
 
 export default theme;
